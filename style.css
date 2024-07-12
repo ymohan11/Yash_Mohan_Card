@@ -1,0 +1,36 @@
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpX7Owxydg5yaX72yyepjJwvyY6aPNcIT_sw:https://cdn.free-power-point-templates.com/wp-content/uploads/2011/02/playing-cards-powerpoint-template.jpg&usqp=CAU);
+  background-size: 600px 600px
+}
+#placecards{
+  background-color: blue
+}
+#verify{
+  background-color: red
+  }
+
+#instruction{
+  //white-space: nowrap;
+  height: 100px;
+  width: 500px;
+  border: 1px solid #000000;
+  overflow:scroll;
+  //text-overflow: ellipsis;
+}
+#playerturn{
+  color: aliceblue;
+
+}
+#player1{
+color:aliceblue;
+
+}
+#player2{
+color:aliceblue;
+}
+#player3{
+color:aliceblue;
+}
+#player4{
+color:aliceblue
+}

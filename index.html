@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id="instruction">
+      Challenge: The objective is to finish your cards. You can play up to 4 of any type of card(response cards) but you can secretly play any cards you want up to 4 cards(cardsPlayed). To place cards, you must click the blue button after entering values(one number at a time) per box. The next player will only see response cards, but they can challenge you if they suspect your response cards are different than your cards played. If they are right, the whole deck pile gets added to the player they were challenging's deck. If they are wrong, the deck pile gets added to their own deck. If they don't want to challenge the player before them, they will just have a normal turn like the person before them.
+      Mentally pick which player you want to be out of p1, p2, p3, p4. You don't have to actually place cards for cardsPlayed(first box) but responseCards(second box) are required and you won't be allowed to complete your turn until you have put the necessary inputs for responseCards. If you place cards you don't have or illegal cards in responseCards, the game won't add them and will tell you so. You can't verify if you decide to place cards and you can't click done until you have placed 2 values for responseCards: one value for the card and the other for how many of that card you want to display(up to 4). 
+    <br>
+      These are your cards(memorize or record your respective decks and please try not to look at other players' decks). Players should not look at the screen while it is another player's turn until it is your turn.
+      </p>
+      <p id="player1">
+
+      </p>
+      <p id="player2">
+      </p>
+      <p id="player3">
+        </p>
+      <p id="player4">
+      </p>
+      <p id="responsecards">
+        </p>
+        <p id="playerturn"></p>
+       <button type="button" id="verify">Click if you want to verify the player before you</button> 
+
+      <p id="verifyOutput"> </p>
+
+      <button type="button" id="placecards">Click to place card(s)</button> <button type="button" id="done">Done</button> 
+
+
+      <form > 
+        <p id="cmessage">Enter which card number you would like to place in the deckPile:</p>  <p id="cerror"> </p>
+        <input id="cardsplayed" type="text" value="">
+        <p id="cardsPlayedOutput"></p> 
+        <p id="rmessage">Enter which card number you want others to see(can be same as responseCards or different):</p> <p id="rerror"></p><p id="respRequirements"></p> 
+        <input id="responsecard" type="text" value=""> 
+      </form>
+    <style>
+
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>
